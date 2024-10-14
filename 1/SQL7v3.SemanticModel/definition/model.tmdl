@@ -1,0 +1,19 @@
+model Model
+	defaultMode: directQuery
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.84.461.0 (20.08)
+
+annotation PBI_QueryOrder = ["Dim Product","DataSourceURL"]
+
+ref table 'Dim Product'
+
+ref cultureInfo en-US
+

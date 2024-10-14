@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Mapbox IMD Trial"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "31b7e6c2-1fcc-4e64-bacc-76166f6f0a68"
+  }
+}

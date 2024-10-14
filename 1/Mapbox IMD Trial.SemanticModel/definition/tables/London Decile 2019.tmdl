@@ -1,0 +1,49 @@
+table 'London Decile 2019'
+	lineageTag: a337d4e3-e752-455b-a725-7b427e5c8c9a
+
+	column LSOA11NM
+		dataType: string
+		lineageTag: 104b1f85-78ca-4209-a8cf-8d6802bc428b
+		summarizeBy: none
+		sourceColumn: LSOA11NM
+
+		annotation SummarizationSetBy = Automatic
+
+	column LAD19NM
+		dataType: string
+		lineageTag: c1fbe712-5bcc-48e3-9a56-07b16cbed495
+		summarizeBy: none
+		sourceColumn: LAD19NM
+
+		annotation SummarizationSetBy = Automatic
+
+	column Decile
+		dataType: int64
+		formatString: 0
+		lineageTag: 8eb5e76b-9199-4905-842a-cfda60223b05
+		summarizeBy: sum
+		sourceColumn: Decile
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Decile Text'
+		dataType: string
+		lineageTag: 1bd22f60-dd0f-4db8-a9ac-eb0c4996e20f
+		summarizeBy: none
+		sourceColumn: Decile Text
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'London Decile 2019-459ced30-a853-494b-98b0-05e6eb6d9b79' = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("jxkt4xphz2.database.windows.net", "MapboxData"),
+				    dbo_London = Source{[Schema="dbo",Item="IMD 2019 Decile London"]}[Data]
+				in
+				    #"dbo_London"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

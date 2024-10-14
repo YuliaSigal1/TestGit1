@@ -1,0 +1,6 @@
+expression DataSourceURL = "pbiotestdb.database.windows.net" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

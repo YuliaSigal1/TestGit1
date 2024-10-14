@@ -1,0 +1,51 @@
+{
+  "config": "{\"version\":\"5.9\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY17SU12\",\"version\":\"3.18\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY17SU12",
+            "path": "BaseThemes/CY17SU12.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"6cd02473360a00c67b30\",\"layouts\":[{\"id\":0,\"position\":{\"x\":452.2964763061969,\"y\":95.3584447144593,\"z\":0,\"width\":279.951397326853,\"height\":227.46051032806807}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(Query1.QueryDate)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Dim Product\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"StartDate\"}},\"Function\":3},\"Name\":\"Min(Query1.QueryDate)\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 227.46,
+          "width": 279.95,
+          "x": 452.29,
+          "y": 95.35,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"74f3297e7acbd07b300e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17.496962332928312,\"y\":13.122721749696234,\"z\":1000,\"width\":394.55650060753345,\"height\":125.10328068043744}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Query1.CurrentUser\"},{\"queryRef\":\"Query1.UserName\"},{\"queryRef\":\"Query1.suserSname\"},{\"queryRef\":\"Query1.EffectiveIdentity\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"q\",\"Entity\":\"Dim Product\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"WeightUnitMeasureCode\"},\"Name\":\"Query1.CurrentUser\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"SpanishProductName\"},\"Name\":\"Query1.UserName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"EnglishProductName\"},\"Name\":\"Query1.suserSname\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"q\"}},\"Property\":\"SizeUnitMeasureCode\"},\"Name\":\"Query1.EffectiveIdentity\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"total\":[{\"properties\":{\"totals\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 125.10,
+          "width": 394.55,
+          "x": 17.49,
+          "y": 13.12,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

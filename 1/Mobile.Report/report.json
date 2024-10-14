@@ -1,0 +1,76 @@
+{
+  "config": "{\"version\":\"5.37\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY19SU12\",\"version\":\"5.11\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"exportDataMode\":1},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 1,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY19SU12",
+            "path": "BaseThemes/CY19SU12.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "items": [
+          {
+            "name": "PBI_CV_EB3A4088_75C5_4746_9D8B_255A7B7ECD6C.pbiviz.json",
+            "path": "PBI_CV_EB3A4088_75C5_4746_9D8B_255A7B7ECD6C.pbiviz.json",
+            "type": 5
+          }
+        ],
+        "name": "PBI_CV_EB3A4088_75C5_4746_9D8B_255A7B7ECD6C",
+        "type": 0
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "London Deprivation v1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"aba8ffaa127baa049ee7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.98266897746967,\"y\":0,\"z\":0,\"width\":1193.4835355285961,\"height\":719.8613518197574}},{\"id\":1,\"position\":{\"x\":0,\"y\":0,\"z\":1,\"width\":306,\"height\":540}}],\"singleVisual\":{\"visualType\":\"PBI_CV_EB3A4088_75C5_4746_9D8B_255A7B7ECD6C\",\"projections\":{\"location\":[{\"queryRef\":\"London Decile 2019.LSOA11NM\",\"active\":true}],\"color\":[{\"queryRef\":\"Sum(London Decile 2019.Decile)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"London Decile 2019\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Decile\"}},\"Function\":0},\"Name\":\"Sum(London Decile 2019.Decile)\",\"NativeReferenceName\":\"Decile\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LSOA11NM\"},\"Name\":\"London Decile 2019.LSOA11NM\",\"NativeReferenceName\":\"LSOA11NM\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Decile\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true,\"objects\":{\"api\":[{\"properties\":{\"accessToken\":{\"expr\":{\"Literal\":{\"Value\":\"'pk.eyJ1IjoibWFya3dpbGNvY2siLCJhIjoiY2s0MDR0YmhxMDA0bzNqb2NwczdmbmN2eiJ9.Hnc7jwU30e8YZsIFp3AKtw'\"}}}}}],\"circle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"choropleth\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"data1\":{\"expr\":{\"Literal\":{\"Value\":\"'custom'\"}}},\"vectorTileUrl1\":{\"expr\":{\"Literal\":{\"Value\":\"'mapbox://markwilcock.0p1q2kri'\"}}},\"sourceLayer1\":{\"expr\":{\"Literal\":{\"Value\":\"'London_LSOA_Shape-dk6va7'\"}}},\"vectorProperty1\":{\"expr\":{\"Literal\":{\"Value\":\"'LSOA11NM'\"}}},\"minColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.5}}}}},\"maxColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#f6ff47'\"}}}}},\"highlightColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#f9ff30'\"}}}}},\"diverging\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'London Deprivation Map'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 719.86,
+          "width": 800.48,
+          "x": 9.98,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{}",
+      "displayName": "London Deprivation v2",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection563da3fb09b5e82392ae",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"aba8ffaa127baa049ee7\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.98266897746967,\"y\":0,\"z\":0,\"width\":1193.4835355285961,\"height\":719.8613518197574}}],\"singleVisual\":{\"visualType\":\"PBI_CV_EB3A4088_75C5_4746_9D8B_255A7B7ECD6C\",\"projections\":{\"location\":[{\"queryRef\":\"London Decile 2019.LSOA11NM\",\"active\":true}],\"color\":[{\"queryRef\":\"Min(London Decile 2019.Decile Text)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"London Decile 2019\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"LSOA11NM\"},\"Name\":\"London Decile 2019.LSOA11NM\",\"NativeReferenceName\":\"LSOA11NM\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Decile Text\"}},\"Function\":3},\"Name\":\"Min(London Decile 2019.Decile Text)\",\"NativeReferenceName\":\"First Decile Text\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"api\":[{\"properties\":{\"accessToken\":{\"expr\":{\"Literal\":{\"Value\":\"'pk.eyJ1IjoibWFya3dpbGNvY2siLCJhIjoiY2s0MDR0YmhxMDA0bzNqb2NwczdmbmN2eiJ9.Hnc7jwU30e8YZsIFp3AKtw'\"}}},\"style\":{\"expr\":{\"Literal\":{\"Value\":\"'mapbox://styles/mapbox/dark-v10?optimize=true'\"}}}}}],\"circle\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"choropleth\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"data1\":{\"expr\":{\"Literal\":{\"Value\":\"'custom'\"}}},\"vectorTileUrl1\":{\"expr\":{\"Literal\":{\"Value\":\"'mapbox://markwilcock.0p1q2kri'\"}}},\"sourceLayer1\":{\"expr\":{\"Literal\":{\"Value\":\"'London_LSOA_Shape-dk6va7'\"}}},\"vectorProperty1\":{\"expr\":{\"Literal\":{\"Value\":\"'LSOA11NM'\"}}},\"minColor\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":-0.5}}}}},\"maxColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#f6ff47'\"}}}}},\"highlightColor\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#f9ff30'\"}}}}},\"diverging\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"legend\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"dataColorsPalette\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#0000ff'\"}}}}}},\"selector\":{\"id\":\"1\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#2080ff'\"}}}}}},\"selector\":{\"id\":\"2\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#40e0ff'\"}}}}}},\"selector\":{\"id\":\"3\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#70ffd0'\"}}}}}},\"selector\":{\"id\":\"4\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#90ffb0'\"}}}}}},\"selector\":{\"id\":\"5\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#c0e1b0'\"}}}}}},\"selector\":{\"id\":\"6\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#e0ffa0'\"}}}}}},\"selector\":{\"id\":\"7\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#e0ff70'\"}}}}}},\"selector\":{\"id\":\"8\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#f0ff30'\"}}}}}},\"selector\":{\"id\":\"9\"}},{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#ffff00'\"}}}}}},\"selector\":{\"id\":\"10\"}}],\"geocoder\":[{\"properties\":{\"dropPin\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'London Deprivation Map'\"}}},\"alignment\":{\"expr\":{\"Literal\":{\"Value\":\"'center'\"}}}}}]}}}",
+          "filters": "[]",
+          "height": 719.86,
+          "width": 1193.48,
+          "x": 9.98,
+          "y": 0.00,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
