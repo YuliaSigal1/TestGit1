@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Warehouse",
+    "displayName": "warehousetest"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7fcd35b0-d992-ab9f-42cf-5560fbf75656"
+  }
+}
