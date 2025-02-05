@@ -1,3 +1,4 @@
+-- Auto Generated (Do not modify) 4927926FEB1D243D38ECBF5DCB3820B636876B1B79EA412A687B1B45FA43A580
 /**************************************************************************************
 Description:    This script creates NYTaxi views and stored procedures
 **************************************************************************************/
