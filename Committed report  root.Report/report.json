@@ -159,15 +159,6 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"c9325d2002e0a74adc04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":365.33772652388797,\"z\":2000,\"width\":863.5255354200989,\"height\":354.66227347611203}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"DimProduct.Color\",\"active\":true}],\"Details\":[{\"queryRef\":\"DimProduct.Class\"}],\"Values\":[{\"queryRef\":\"Sum(FactInternetSales.SalesAmount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimProduct\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FactInternetSales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Color\"},\"Name\":\"DimProduct.Color\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Class\"},\"Name\":\"DimProduct.Class\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SalesAmount\"}},\"Function\":0},\"Name\":\"Sum(FactInternetSales.SalesAmount)\"}]},\"drillFilterOtherVisuals\":true}}",
-          "filters": "[]",
-          "height": 354.66,
-          "width": 863.53,
-          "x": 0.00,
-          "y": 365.34,
-          "z": 2000.00
-        },
-        {
           "config": "{\"name\":\"e85dbc4b07c58310c94d\",\"layouts\":[{\"id\":0,\"position\":{\"x\":864,\"y\":0,\"z\":1000,\"width\":416,\"height\":328}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DimCustomer.EnglishOccupation\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(FactInternetSales.SalesAmount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimCustomer\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FactInternetSales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"EnglishOccupation\"},\"Name\":\"DimCustomer.EnglishOccupation\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SalesAmount\"}},\"Function\":0},\"Name\":\"Sum(FactInternetSales.SalesAmount)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SalesAmount\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 328.00,
