@@ -159,6 +159,15 @@
           "z": 0.00
         },
         {
+          "config": "{\"name\":\"a46daa12c6e039b09740\",\"layouts\":[{\"id\":0,\"position\":{\"x\":864,\"y\":365,\"width\":416,\"height\":355,\"z\":2001,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"DimGeography.City\",\"active\":true}],\"Series\":[{\"queryRef\":\"DimGeography.CountryRegionCode\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimGeography\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"City\"},\"Name\":\"DimGeography.City\",\"NativeReferenceName\":\"City\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"CountryRegionCode\"},\"Name\":\"DimGeography.CountryRegionCode\",\"NativeReferenceName\":\"CountryRegionCode\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 355.00,
+          "width": 416.00,
+          "x": 864.00,
+          "y": 365.00,
+          "z": 2001.00
+        },
+        {
           "config": "{\"name\":\"c9325d2002e0a74adc04\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":365.33772652388797,\"z\":2000,\"width\":863.5255354200989,\"height\":354.66227347611203}}],\"singleVisual\":{\"visualType\":\"treemap\",\"projections\":{\"Group\":[{\"queryRef\":\"DimProduct.Color\",\"active\":true}],\"Details\":[{\"queryRef\":\"DimProduct.Class\"}],\"Values\":[{\"queryRef\":\"Sum(FactInternetSales.SalesAmount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DimProduct\",\"Type\":0},{\"Name\":\"f\",\"Entity\":\"FactInternetSales\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Color\"},\"Name\":\"DimProduct.Color\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Class\"},\"Name\":\"DimProduct.Class\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SalesAmount\"}},\"Function\":0},\"Name\":\"Sum(FactInternetSales.SalesAmount)\"}]},\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 354.66,
