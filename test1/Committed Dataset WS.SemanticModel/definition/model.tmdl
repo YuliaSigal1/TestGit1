@@ -8,7 +8,7 @@ model Model
 
 annotation __PBI_TimeIntelligenceEnabled = 1
 
-annotation PBIDesktopVersion = 2.106.883.0 (22.06)
+annotation PBIDesktopVersion = 2.131.427.0 (24.07)
 
 annotation PBI_QueryOrder = ["DimDate","DimCustomer","DimGeography","DimProduct","FactInternetSales"]
 
@@ -28,10 +28,8 @@ ref table LocalDateTable_6a4732fc-676a-4d8c-8974-fa76cea0aaaf
 ref table LocalDateTable_41066069-c630-42ba-8b0e-07b913c40f11
 
 ref role CountryDynamic
-ref role 'OccupationManual CHANGED '
-ref role 'CanadaNEWre+member test '
-ref role DynamicNEW
-ref role 'adding new role'
+ref role OccupationClerical
+ref role OccupationManual
 
 ref cultureInfo en-US
 

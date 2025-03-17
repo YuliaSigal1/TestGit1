@@ -1,10 +1,10 @@
 table DimGeography
-	lineageTag: 424f0aa9-0cf5-4753-811d-53930bd3bc14
+	lineageTag: 716d6e36-71de-4551-aa81-d4e68eb72c41
 
 	column GeographyKey
 		dataType: int64
 		formatString: 0
-		lineageTag: c04dac11-5d0d-46cf-8018-4c61547487e5
+		lineageTag: 7e149e7f-9ec5-46c2-9423-07171a257428
 		summarizeBy: none
 		sourceColumn: GeographyKey
 
@@ -12,7 +12,7 @@ table DimGeography
 
 	column City
 		dataType: string
-		lineageTag: 37e94569-8f32-4fd7-8cb8-1eec60142aa5
+		lineageTag: cee1bef0-a887-4229-b0a2-49735d1f017f
 		summarizeBy: none
 		sourceColumn: City
 
@@ -20,7 +20,7 @@ table DimGeography
 
 	column StateProvinceCode
 		dataType: string
-		lineageTag: fa811dd0-7498-4dd2-a0ed-7d2941b19ec1
+		lineageTag: b3bf7e8c-a851-45c1-8924-06eec21bb4a3
 		summarizeBy: none
 		sourceColumn: StateProvinceCode
 
@@ -28,7 +28,7 @@ table DimGeography
 
 	column StateProvinceName
 		dataType: string
-		lineageTag: b3d156ab-f276-48df-bef2-c8d0783b065a
+		lineageTag: 8621f79d-00f4-457f-976f-5c1634a8ea2e
 		summarizeBy: none
 		sourceColumn: StateProvinceName
 
@@ -36,7 +36,7 @@ table DimGeography
 
 	column CountryRegionCode
 		dataType: string
-		lineageTag: e9fd8d9c-60d2-417f-9e6b-96d36a61f9c2
+		lineageTag: ba1b999d-cc9b-4032-81b0-fdd42c201b8d
 		summarizeBy: none
 		sourceColumn: CountryRegionCode
 
@@ -44,7 +44,7 @@ table DimGeography
 
 	column EnglishCountryRegionName
 		dataType: string
-		lineageTag: 4f98d636-f95f-4e55-824c-b7c9eb53fa87
+		lineageTag: 6aced05d-9d2e-4399-80dd-feec6e86c087
 		summarizeBy: none
 		sourceColumn: EnglishCountryRegionName
 
@@ -52,7 +52,7 @@ table DimGeography
 
 	column SpanishCountryRegionName
 		dataType: string
-		lineageTag: 1c499186-ba3c-4fc8-b578-03a6cc7f1c63
+		lineageTag: 6f5122c2-0eb6-4bde-8fc7-7bb95018648f
 		summarizeBy: none
 		sourceColumn: SpanishCountryRegionName
 
@@ -60,7 +60,7 @@ table DimGeography
 
 	column FrenchCountryRegionName
 		dataType: string
-		lineageTag: f0c702f3-a674-45ad-97d3-8f70220edb50
+		lineageTag: 187eb4df-7367-4826-9bec-5beb790d9357
 		summarizeBy: none
 		sourceColumn: FrenchCountryRegionName
 
@@ -68,7 +68,7 @@ table DimGeography
 
 	column PostalCode
 		dataType: string
-		lineageTag: d44359e1-d880-4b60-a096-4d74fd4df212
+		lineageTag: fd54591b-70ac-4ef3-8c3f-325fbd43fb35
 		summarizeBy: none
 		sourceColumn: PostalCode
 
@@ -77,7 +77,7 @@ table DimGeography
 	column SalesTerritoryKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 7a8035af-3749-45de-8c93-8ff22ec52259
+		lineageTag: 34e02b03-dda6-498b-be30-777f45460f76
 		summarizeBy: none
 		sourceColumn: SalesTerritoryKey
 
@@ -85,7 +85,7 @@ table DimGeography
 
 	column IpAddressLocator
 		dataType: string
-		lineageTag: 83ab0268-9edd-44ad-9ad0-e203c7cce47c
+		lineageTag: 3567a573-c6d0-47d1-a2e8-04454fbc26b0
 		summarizeBy: none
 		sourceColumn: IpAddressLocator
 

@@ -1,10 +1,10 @@
 table FactInternetSales
-	lineageTag: 8d23cec7-3b00-4c78-82d6-cc10280f5049
+	lineageTag: 6faae55c-e906-4298-be34-dce2a19afbe4
 
 	column ProductKey
 		dataType: int64
 		formatString: 0
-		lineageTag: f183e4a6-5802-4020-b63d-98deb16f8b24
+		lineageTag: c3d97b34-14bd-43e8-a246-65c7c4cb3329
 		summarizeBy: none
 		sourceColumn: ProductKey
 
@@ -13,7 +13,7 @@ table FactInternetSales
 	column OrderDateKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 3f8f274e-9e82-4f94-84f8-a54689c828a0
+		lineageTag: efe1e127-0f56-4f4d-b29e-716649dfee72
 		summarizeBy: count
 		sourceColumn: OrderDateKey
 
@@ -22,7 +22,7 @@ table FactInternetSales
 	column DueDateKey
 		dataType: int64
 		formatString: 0
-		lineageTag: e153668d-d378-408c-b87c-0160b32f86fc
+		lineageTag: ffd3c009-cd0d-4938-8eac-b6a07be64d0b
 		summarizeBy: none
 		sourceColumn: DueDateKey
 
@@ -31,7 +31,7 @@ table FactInternetSales
 	column ShipDateKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 55e51f1d-a927-4b2d-af4b-58547f87727a
+		lineageTag: 4507e028-87ee-469e-8d2d-bd6d1d74b57f
 		summarizeBy: count
 		sourceColumn: ShipDateKey
 
@@ -40,7 +40,7 @@ table FactInternetSales
 	column CustomerKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 9b44fffa-1f50-47b5-9f52-3dba6502a410
+		lineageTag: f1ee6945-606b-4fbd-8758-cbcae10964ea
 		summarizeBy: none
 		sourceColumn: CustomerKey
 
@@ -49,7 +49,7 @@ table FactInternetSales
 	column PromotionKey
 		dataType: int64
 		formatString: 0
-		lineageTag: b257c71c-52cf-4b5f-98b0-bd91609f90f6
+		lineageTag: e872975a-f87d-42b9-911e-5877df31281b
 		summarizeBy: count
 		sourceColumn: PromotionKey
 
@@ -58,7 +58,7 @@ table FactInternetSales
 	column CurrencyKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 12d63c8f-8ace-4e1a-9f77-bff573e5915b
+		lineageTag: c30b4cec-b41e-40ff-aca9-a9dee3b87020
 		summarizeBy: count
 		sourceColumn: CurrencyKey
 
@@ -67,7 +67,7 @@ table FactInternetSales
 	column SalesTerritoryKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 7d2e4c68-9d3a-4de5-a954-0df4b421d0c5
+		lineageTag: 3a9d4b31-c757-4608-a1d0-6a6792d9f410
 		summarizeBy: count
 		sourceColumn: SalesTerritoryKey
 
@@ -75,7 +75,7 @@ table FactInternetSales
 
 	column SalesOrderNumber
 		dataType: string
-		lineageTag: 8c25949e-8f53-4dcb-8a11-a1f6cb76f45d
+		lineageTag: d5c2bb6d-6a55-4233-9be5-958b1e39555d
 		summarizeBy: none
 		sourceColumn: SalesOrderNumber
 
@@ -84,7 +84,7 @@ table FactInternetSales
 	column SalesOrderLineNumber
 		dataType: int64
 		formatString: 0
-		lineageTag: 5f84310e-a68c-48c5-ae05-5b9b23440994
+		lineageTag: 7948dbee-ca32-4e4d-8570-dc8af33c0afe
 		summarizeBy: sum
 		sourceColumn: SalesOrderLineNumber
 
@@ -93,7 +93,7 @@ table FactInternetSales
 	column RevisionNumber
 		dataType: int64
 		formatString: 0
-		lineageTag: d769169f-bd57-400e-b1b7-7687c68ac280
+		lineageTag: 414a4b70-a4da-40f2-b6b9-fb61dcf374db
 		summarizeBy: sum
 		sourceColumn: RevisionNumber
 
@@ -102,7 +102,7 @@ table FactInternetSales
 	column OrderQuantity
 		dataType: int64
 		formatString: 0
-		lineageTag: ff7014ed-4ad1-4fc6-85ed-0e588e3675f4
+		lineageTag: 2122faed-f5ab-4576-8421-b6173d9ff349
 		summarizeBy: sum
 		sourceColumn: OrderQuantity
 
@@ -111,7 +111,7 @@ table FactInternetSales
 	column UnitPrice
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: e4d9b7fe-36bd-4d55-acd0-d785bd8e8d21
+		lineageTag: 561353cb-d2ad-4962-8f33-d983ce17d9b9
 		summarizeBy: sum
 		sourceColumn: UnitPrice
 
@@ -122,7 +122,7 @@ table FactInternetSales
 	column ExtendedAmount
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: 02c9c3bf-5429-4b44-9dd3-8e2f558c3609
+		lineageTag: 0971ebf2-bd16-476d-aa4f-5e1f972251f8
 		summarizeBy: sum
 		sourceColumn: ExtendedAmount
 
@@ -132,7 +132,7 @@ table FactInternetSales
 
 	column UnitPriceDiscountPct
 		dataType: double
-		lineageTag: 82f3b5f2-f175-4b21-a802-77baef488f27
+		lineageTag: 1e78e522-5f02-4ad2-994a-16961cf6a11d
 		summarizeBy: sum
 		sourceColumn: UnitPriceDiscountPct
 
@@ -142,7 +142,7 @@ table FactInternetSales
 
 	column DiscountAmount
 		dataType: double
-		lineageTag: 708a6c46-c44c-4160-93cc-325da75280f9
+		lineageTag: aa210d13-f0e8-44f1-9117-74be6118b1d0
 		summarizeBy: sum
 		sourceColumn: DiscountAmount
 
@@ -153,7 +153,7 @@ table FactInternetSales
 	column ProductStandardCost
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: 3cb57bbe-ebc5-459b-80f0-695260782b43
+		lineageTag: 66ba0863-6fb8-4e6a-b61f-1bea9db838c6
 		summarizeBy: sum
 		sourceColumn: ProductStandardCost
 
@@ -164,7 +164,7 @@ table FactInternetSales
 	column TotalProductCost
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: 993d55a0-7ebc-494d-a512-472f275daf0e
+		lineageTag: 4a81ee2b-79ec-4ae6-973a-c08fce36ca81
 		summarizeBy: sum
 		sourceColumn: TotalProductCost
 
@@ -175,7 +175,7 @@ table FactInternetSales
 	column SalesAmount
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: a1798469-8673-437d-b1b3-5bab63ad82b1
+		lineageTag: f51609a6-2657-46ff-a4e2-f21d8144f8de
 		summarizeBy: sum
 		sourceColumn: SalesAmount
 
@@ -186,7 +186,7 @@ table FactInternetSales
 	column TaxAmt
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: afb2f02c-646f-49ca-a1f5-ffac8c240c74
+		lineageTag: 6e814fd1-03bc-45f4-a79e-30896ebf6d82
 		summarizeBy: sum
 		sourceColumn: TaxAmt
 
@@ -197,7 +197,7 @@ table FactInternetSales
 	column Freight
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: d268ffec-cfa7-4659-952e-9fa34875384c
+		lineageTag: 3e1144d4-7550-482e-95dc-eb19e8c38ea5
 		summarizeBy: sum
 		sourceColumn: Freight
 
@@ -207,7 +207,7 @@ table FactInternetSales
 
 	column CarrierTrackingNumber
 		dataType: string
-		lineageTag: 6cf2168b-285e-49e8-a2f3-94455ac7f2e7
+		lineageTag: b98a2553-060f-4047-bcb7-0fbd4b007a42
 		summarizeBy: none
 		sourceColumn: CarrierTrackingNumber
 
@@ -215,7 +215,7 @@ table FactInternetSales
 
 	column CustomerPONumber
 		dataType: string
-		lineageTag: 8ed219a0-5750-432a-ba80-83f6a72e2d78
+		lineageTag: f48977ad-ee7e-4769-a7f5-9f797054f076
 		summarizeBy: none
 		sourceColumn: CustomerPONumber
 
@@ -224,7 +224,7 @@ table FactInternetSales
 	column OrderDate
 		dataType: dateTime
 		formatString: General Date
-		lineageTag: 7a6e23c4-89c8-44ee-8aa1-0bf9e02c2a85
+		lineageTag: c7e96249-d0dd-42bb-b5a8-ef8c29f9292e
 		summarizeBy: none
 		sourceColumn: OrderDate
 
@@ -238,7 +238,7 @@ table FactInternetSales
 	column DueDate
 		dataType: dateTime
 		formatString: General Date
-		lineageTag: ace5bae0-4862-42ab-9ba6-8c446062040c
+		lineageTag: bd7aab52-a542-4dd1-89ba-b24eabadb60d
 		summarizeBy: none
 		sourceColumn: DueDate
 
@@ -252,7 +252,7 @@ table FactInternetSales
 	column ShipDate
 		dataType: dateTime
 		formatString: General Date
-		lineageTag: fa7eb390-4a50-4ce7-a784-abb7ecb3f1db
+		lineageTag: 134b066a-9f5e-40ba-9f8b-a9ba7d6096f4
 		summarizeBy: none
 		sourceColumn: ShipDate
 

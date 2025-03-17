@@ -1,10 +1,10 @@
 table DimCustomer
-	lineageTag: 74a5e858-c152-48de-9625-9432af94bc49
+	lineageTag: 849f41a3-8d59-40f0-bd1a-472cc9cdcef4
 
 	column CustomerKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 4e7d2b08-279a-4249-87ad-8581e5ddef6c
+		lineageTag: 6a890607-8a60-42b2-803d-efd429f4bc34
 		summarizeBy: none
 		sourceColumn: CustomerKey
 
@@ -13,7 +13,7 @@ table DimCustomer
 	column GeographyKey
 		dataType: int64
 		formatString: 0
-		lineageTag: 827dda42-a9a8-40c8-9f28-da199b5fdeda
+		lineageTag: 69cb0d65-cdba-4cd4-979e-4384b3fd807c
 		summarizeBy: none
 		sourceColumn: GeographyKey
 
@@ -21,7 +21,7 @@ table DimCustomer
 
 	column CustomerAlternateKey
 		dataType: string
-		lineageTag: dc60d40c-52f5-47fd-99ea-6c7042fb9b46
+		lineageTag: 45dcf73b-889d-4aa7-8d8f-61246dc91608
 		summarizeBy: none
 		sourceColumn: CustomerAlternateKey
 
@@ -29,7 +29,7 @@ table DimCustomer
 
 	column Title
 		dataType: string
-		lineageTag: 293852c6-a15a-475a-83ff-414102edc24b
+		lineageTag: 6fc4cd88-37d1-42fd-b248-fa16bb30c4ed
 		summarizeBy: none
 		sourceColumn: Title
 
@@ -37,7 +37,7 @@ table DimCustomer
 
 	column FirstName
 		dataType: string
-		lineageTag: 5c176b2c-489d-41a5-8e90-c1eb1c1fe312
+		lineageTag: fa228448-6020-4bbc-a683-a82e464d0388
 		summarizeBy: none
 		sourceColumn: FirstName
 
@@ -45,7 +45,7 @@ table DimCustomer
 
 	column MiddleName
 		dataType: string
-		lineageTag: 87c06641-6c62-43ee-afc9-e94207d204c5
+		lineageTag: c4a90d45-1d17-4292-9e0b-2828dbedfd22
 		summarizeBy: none
 		sourceColumn: MiddleName
 
@@ -53,7 +53,7 @@ table DimCustomer
 
 	column LastName
 		dataType: string
-		lineageTag: de627e6f-0ede-48f6-aad4-b5dea9eb20b2
+		lineageTag: 317f6279-a28e-4618-833a-556384b5d140
 		summarizeBy: none
 		sourceColumn: LastName
 
@@ -62,7 +62,7 @@ table DimCustomer
 	column NameStyle
 		dataType: boolean
 		formatString: """TRUE"";""TRUE"";""FALSE"""
-		lineageTag: 53a08c90-e7c7-4667-b20a-79b4838e0c37
+		lineageTag: b3fa0be8-ad8f-4d39-aca1-f7a426652e26
 		summarizeBy: none
 		sourceColumn: NameStyle
 
@@ -71,7 +71,7 @@ table DimCustomer
 	column BirthDate
 		dataType: dateTime
 		formatString: Long Date
-		lineageTag: 46b96d80-155c-4ab3-ba0e-94a984f632a0
+		lineageTag: 2d905aa4-ed2c-49e2-b2c0-794e777a5f8a
 		summarizeBy: none
 		sourceColumn: BirthDate
 
@@ -86,7 +86,7 @@ table DimCustomer
 
 	column MaritalStatus
 		dataType: string
-		lineageTag: 4e554422-78e6-4a49-8c38-3a5a26b6da44
+		lineageTag: 2cb5f3cd-1aea-4cf6-9a95-486755a02c7f
 		summarizeBy: none
 		sourceColumn: MaritalStatus
 
@@ -94,7 +94,7 @@ table DimCustomer
 
 	column Suffix
 		dataType: string
-		lineageTag: 2940cecf-3b8b-4ea7-a370-b99f84b30448
+		lineageTag: edbb2c69-34c2-49d2-be56-9f91710c866b
 		summarizeBy: none
 		sourceColumn: Suffix
 
@@ -102,7 +102,7 @@ table DimCustomer
 
 	column Gender
 		dataType: string
-		lineageTag: 812283cf-a495-4f40-918b-0968da9e57bc
+		lineageTag: f4a60bf5-b248-4d68-88b9-a777d73c1f1d
 		summarizeBy: none
 		sourceColumn: Gender
 
@@ -110,7 +110,7 @@ table DimCustomer
 
 	column EmailAddress
 		dataType: string
-		lineageTag: 4e65f4db-0058-4488-b9c9-a86b99c885bb
+		lineageTag: b344b98e-43c0-491a-9917-442905ce1826
 		summarizeBy: none
 		sourceColumn: EmailAddress
 
@@ -119,7 +119,7 @@ table DimCustomer
 	column YearlyIncome
 		dataType: decimal
 		formatString: \$#,0.###############;(\$#,0.###############);\$#,0.###############
-		lineageTag: a12f49b9-7f29-45cf-807b-f2cf77784e43
+		lineageTag: bec80f45-b814-43a4-8bd4-580be581a80b
 		summarizeBy: sum
 		sourceColumn: YearlyIncome
 
@@ -130,7 +130,7 @@ table DimCustomer
 	column TotalChildren
 		dataType: int64
 		formatString: 0
-		lineageTag: fc50b3d8-3645-4be3-9016-f68a67251422
+		lineageTag: 2a8e6e4d-81ac-4864-af3f-da797aaf333c
 		summarizeBy: sum
 		sourceColumn: TotalChildren
 
@@ -139,7 +139,7 @@ table DimCustomer
 	column NumberChildrenAtHome
 		dataType: int64
 		formatString: 0
-		lineageTag: 00621899-a9d6-48bd-962d-4368de71fd6a
+		lineageTag: 3c0a7e9e-39ef-40b2-9956-2c95ab2ae7ea
 		summarizeBy: sum
 		sourceColumn: NumberChildrenAtHome
 
@@ -147,7 +147,7 @@ table DimCustomer
 
 	column EnglishEducation
 		dataType: string
-		lineageTag: 99d4bf47-1c43-46ef-92e2-740d3140219c
+		lineageTag: b14b28c8-a0d0-4a52-b115-139ee8acc382
 		summarizeBy: none
 		sourceColumn: EnglishEducation
 
@@ -155,7 +155,7 @@ table DimCustomer
 
 	column SpanishEducation
 		dataType: string
-		lineageTag: e2b88b6b-0d9b-4190-b6c0-47db4979f60a
+		lineageTag: c9728046-90eb-47c5-b575-f2517ba45f69
 		summarizeBy: none
 		sourceColumn: SpanishEducation
 
@@ -163,7 +163,7 @@ table DimCustomer
 
 	column FrenchEducation
 		dataType: string
-		lineageTag: 7456f8fe-0134-4854-9112-a858d0c2b38d
+		lineageTag: adb7f664-43d1-48b1-90df-83a3acfc099d
 		summarizeBy: none
 		sourceColumn: FrenchEducation
 
@@ -171,7 +171,7 @@ table DimCustomer
 
 	column EnglishOccupation
 		dataType: string
-		lineageTag: 445178b0-990e-4363-9e33-324e56a29875
+		lineageTag: 80ded289-63eb-40df-afc5-c5d019b43baa
 		summarizeBy: none
 		sourceColumn: EnglishOccupation
 
@@ -179,7 +179,7 @@ table DimCustomer
 
 	column SpanishOccupation
 		dataType: string
-		lineageTag: 8cabe305-d20d-4584-adee-0d1676883a25
+		lineageTag: 53a3c3ba-c104-4907-bd20-134ca5049821
 		summarizeBy: none
 		sourceColumn: SpanishOccupation
 
@@ -187,7 +187,7 @@ table DimCustomer
 
 	column FrenchOccupation
 		dataType: string
-		lineageTag: 25a6903b-f9cc-4322-9c2a-cf5b732e5020
+		lineageTag: 03e19607-3fbc-4252-8e99-77f6c9464a83
 		summarizeBy: none
 		sourceColumn: FrenchOccupation
 
@@ -195,7 +195,7 @@ table DimCustomer
 
 	column HouseOwnerFlag
 		dataType: string
-		lineageTag: 706f0990-3fe0-473e-9b05-89e12bc838cd
+		lineageTag: 9f7e9bdc-e24a-4827-b862-17dd7b7a476e
 		summarizeBy: none
 		sourceColumn: HouseOwnerFlag
 
@@ -204,7 +204,7 @@ table DimCustomer
 	column NumberCarsOwned
 		dataType: int64
 		formatString: 0
-		lineageTag: f42359d9-1a33-468a-8e29-37dc00fd33d4
+		lineageTag: cca0431e-e3bf-4e11-9e70-a115c07d180e
 		summarizeBy: sum
 		sourceColumn: NumberCarsOwned
 
@@ -212,7 +212,7 @@ table DimCustomer
 
 	column AddressLine1
 		dataType: string
-		lineageTag: 0fe388a4-dac2-406d-b60b-6a3aa8844c53
+		lineageTag: 4f6d123c-9a7d-4f04-8c94-049f10cfa4fb
 		summarizeBy: none
 		sourceColumn: AddressLine1
 
@@ -220,7 +220,7 @@ table DimCustomer
 
 	column AddressLine2
 		dataType: string
-		lineageTag: 4661ccec-4524-4d5b-b766-da49e59dd42b
+		lineageTag: f80de3f6-d799-479c-8e6d-946b168c1b28
 		summarizeBy: none
 		sourceColumn: AddressLine2
 
@@ -228,7 +228,7 @@ table DimCustomer
 
 	column Phone
 		dataType: string
-		lineageTag: 3c9d3736-19ed-4065-8b5d-6b1af1c88bdf
+		lineageTag: 89fe8069-68cc-433e-bdf2-2759d470bce2
 		summarizeBy: none
 		sourceColumn: Phone
 
@@ -237,7 +237,7 @@ table DimCustomer
 	column DateFirstPurchase
 		dataType: dateTime
 		formatString: Long Date
-		lineageTag: edc091c3-f041-46e8-b250-6b60a4af5954
+		lineageTag: af019599-036e-486c-9283-81a120d71b29
 		summarizeBy: none
 		sourceColumn: DateFirstPurchase
 
@@ -252,7 +252,7 @@ table DimCustomer
 
 	column CommuteDistance
 		dataType: string
-		lineageTag: 5afab71a-3e0c-44fa-ad65-c33db16ccf57
+		lineageTag: 87a25d9e-4e17-4005-a9eb-901298cfaefd
 		summarizeBy: none
 		sourceColumn: CommuteDistance
 
