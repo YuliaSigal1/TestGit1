@@ -38,7 +38,7 @@
         {
           "config": "{\"name\":\"f6886540418ee8e07410\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":290,\"width\":280,\"height\":280,\"z\":1,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"donutChart\",\"projections\":{\"Category\":[{\"queryRef\":\"members.Family\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(members.Id)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"m\",\"Entity\":\"members\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Family\"},\"Name\":\"members.Family\",\"NativeReferenceName\":\"Family\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Id\"}},\"Function\":5},\"Name\":\"CountNonNull(members.Id)\",\"NativeReferenceName\":\"Id\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Id\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 280.00,
+          "height": 290.00,
           "width": 280.00,
           "x": 10.00,
           "y": 290.00,
