@@ -57,7 +57,7 @@
           "config": "{\"name\":\"c572ca957e7030983e81\",\"layouts\":[{\"id\":0,\"position\":{\"x\":17,\"y\":570,\"width\":395,\"height\":150,\"z\":2001,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"filledMap\",\"drillFilterOtherVisuals\":true}}",
           "filters": "[]",
           "height": 150.00,
-          "width": 395.00,
+          "width": 400.00,
           "x": 17.00,
           "y": 570.00,
           "z": 2001.00
