@@ -1,0 +1,84 @@
+table 'Dim Product'
+
+	measure SizeUnitMeasureCode = USERNAME()
+
+		annotation Format = <Format Format="Text" />
+
+	column StartDate
+		dataType: dateTime
+		isNullable: false
+		formatString: General Date
+		sourceProviderType: datetime
+		summarizeBy: none
+		sourceColumn: QueryDate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation Format = <Format Format="DateTimeGeneralPattern"><DateTimes><DateTime LCID="1033" Group="GeneralDateTimeLong" FormatString="G" /></DateTimes></Format>
+
+		annotation DataTypeAtRefresh = DateTime#####not a type
+
+		annotation PBI_NameAtRefresh = QueryDate
+
+		annotation PBI_WasHiddenAtRefresh = False
+
+	column EnglishProductName
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		summarizeBy: none
+		sourceColumn: suserSname
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation Format = <Format Format="Text" />
+
+		annotation DataTypeAtRefresh = String#####not a type
+
+		annotation PBI_NameAtRefresh = suserSname
+
+		annotation PBI_WasHiddenAtRefresh = False
+
+	column SpanishProductName
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		summarizeBy: none
+		sourceColumn: UserName
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation Format = <Format Format="Text" />
+
+		annotation DataTypeAtRefresh = String#####not a type
+
+		annotation PBI_NameAtRefresh = UserName
+
+		annotation PBI_WasHiddenAtRefresh = False
+
+	column WeightUnitMeasureCode
+		dataType: string
+		sourceProviderType: nvarchar(128)
+		summarizeBy: none
+		sourceColumn: CurrentUser
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation Format = <Format Format="Text" />
+
+		annotation DataTypeAtRefresh = String#####not a type
+
+		annotation PBI_NameAtRefresh = CurrentUser
+
+		annotation PBI_WasHiddenAtRefresh = False
+
+	partition 'Dim Product-b6184f9f-6d34-46cb-9e79-7199e5b50d2f' = m
+		mode: directQuery
+		source =
+				let
+				    Source = Sql.Database(DataSourceURL, "refresh", [Query="SELECT suser_sname() as suserSname, USER_NAME() as UserName, CURRENT_USER as CurrentUser, GetDate() as QueryDate"])
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
