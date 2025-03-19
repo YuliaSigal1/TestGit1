@@ -96,7 +96,7 @@
           "config": "{\"name\":\"3f0b0a8091797d5840ed\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":416.60377358490564,\"z\":1000,\"width\":351.91374663072776,\"height\":303.61185983827494}}],\"singleVisual\":{\"visualType\":\"WordCloud1447959067750\",\"projections\":{\"Category\":[{\"queryRef\":\"DimProduct.Color\"}],\"Values\":[{\"queryRef\":\"Sum(FactInternetSales.SalesAmount)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"f\",\"Entity\":\"FactInternetSales\",\"Type\":0},{\"Name\":\"d\",\"Entity\":\"DimProduct\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"Color\"},\"Name\":\"DimProduct.Color\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SalesAmount\"}},\"Function\":0},\"Name\":\"Sum(FactInternetSales.SalesAmount)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"f\"}},\"Property\":\"SalesAmount\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
           "height": 303.61,
-          "width": 351.91,
+          "width": 351.90,
           "x": 0.00,
           "y": 416.60,
           "z": 1000.00
