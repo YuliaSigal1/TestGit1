@@ -79,7 +79,7 @@
           "config": "{\"name\":\"c6fa03c61b1d96809ca9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.489291598023064,\"y\":320.2635914332784,\"z\":1000,\"width\":153.0148270181219,\"height\":279.9341021416804}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"RefreshConnections_temp3.MeasureWithParam\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"RefreshConnections_temp3\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"MeasureWithParam\"},\"Name\":\"RefreshConnections_temp3.MeasureWithParam\"}]}}}",
           "filters": "[]",
           "height": 279.93,
-          "width": 153.01,
+          "width": 153.05,
           "x": 9.49,
           "y": 320.26,
           "z": 1000.00
