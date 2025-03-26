@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Updated dataset root",
+    "description": "test1"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c28971c2-1d7e-a041-4704-afbfd493324f"
+  }
+}
