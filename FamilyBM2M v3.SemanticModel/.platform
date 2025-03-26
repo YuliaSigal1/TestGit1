@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "FamilyBM2M v3"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "98c86b0f-d2ac-b2de-46f1-b70364fcd58b"
+  }
+}
