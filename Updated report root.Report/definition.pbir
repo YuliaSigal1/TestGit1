@@ -2,7 +2,7 @@
   "version": "4.0",
   "datasetReference": {
     "byPath": {
-      "path": "../Updated dataset root.SemanticModel"
+      "path": "../subfolderTest/Updated dataset root.SemanticModel"
     }
   }
 }
