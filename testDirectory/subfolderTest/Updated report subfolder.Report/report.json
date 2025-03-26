@@ -61,7 +61,7 @@
           "config": "{\"name\":\"9b559d65c933f9bc0700\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":20,\"width\":280,\"height\":280,\"z\":0}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Table1.asasasas\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Table1.asasasas)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table1NoParams\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"asasasas\"},\"Name\":\"Table1.asasasas\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"asasasas\"}},\"Function\":5},\"Name\":\"CountNonNull(Table1.asasasas)\"}]}}}",
           "filters": "[]",
           "height": 280.00,
-          "width": 280.00,
+          "width": 285.00,
           "x": 10.00,
           "y": 20.00,
           "z": 0.00
