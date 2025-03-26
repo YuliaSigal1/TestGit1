@@ -2,7 +2,7 @@
   "version": "4.0",
   "datasetReference": {
     "byPath": {
-      "path": "../subfolderTest/CloudRLS v3.SemanticModel"
+      "path": "../CloudRLS v3.SemanticModel"
     }
   }
 }

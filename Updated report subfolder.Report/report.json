@@ -49,6 +49,15 @@
           "z": 4000.00
         },
         {
+          "config": "{\"name\":\"5da0c3198ab965e077ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":932,\"y\":57,\"width\":185,\"height\":280,\"z\":4001,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(DaxParam.DaxParam)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DaxParam\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"DaxParam\"}},\"Function\":0},\"Name\":\"Sum(DaxParam.DaxParam)\",\"NativeReferenceName\":\"DaxParam\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"DaxParam\"}},\"Function\":0}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 185.00,
+          "x": 932.00,
+          "y": 57.00,
+          "z": 4001.00
+        },
+        {
           "config": "{\"name\":\"8d7e00e1ce8cbe5fa6f8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":300,\"y\":20,\"width\":280,\"height\":280,\"z\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(DateTimeZoneParam.DateTimeZoneParam)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DateTimeZoneParam\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"DateTimeZoneParam\"}},\"Function\":3},\"Name\":\"Min(DateTimeZoneParam.DateTimeZoneParam)\"}]}}}",
           "filters": "[]",
           "height": 280.00,
