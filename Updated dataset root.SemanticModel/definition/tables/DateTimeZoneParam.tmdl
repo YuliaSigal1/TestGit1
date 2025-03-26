@@ -23,7 +23,7 @@ table DateTimeZoneParam
 
 	partition DateTimeZoneParam-c3f26d5e-6bbd-4952-bab9-3c34f10885b6 = m
 		mode: import
-		source = #datetimezone(1955, 2, 20, 22, 19, 38, -8, 0) meta [IsParameterQuery=true, Type="DateTimeZone", IsParameterQueryRequired=true]
+		source = #datetimezone(1965, 2, 20, 22, 19, 38, -8, 0) meta [IsParameterQuery=true, Type="DateTimeZone", IsParameterQueryRequired=true]
 
 	annotation PBI_Id = e958cdab-3485-4ee2-a17b-40d55f49999c
 
