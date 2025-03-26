@@ -49,6 +49,15 @@
           "z": 4000.00
         },
         {
+          "config": "{\"name\":\"8c93be00c3800d01a5c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":932,\"y\":57,\"width\":185,\"height\":280,\"z\":4001,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(RefreshConnections_V0.DMGatewayType)\"}],\"Category\":[{\"queryRef\":\"RefreshConnections_V0.ConnectionString\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"r\",\"Entity\":\"RefreshConnections_V0\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"DMGatewayType\"}},\"Function\":0},\"Name\":\"Sum(RefreshConnections_V0.DMGatewayType)\",\"NativeReferenceName\":\"DMGatewayType\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"ConnectionString\"},\"Name\":\"RefreshConnections_V0.ConnectionString\",\"NativeReferenceName\":\"ConnectionString\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"r\"}},\"Property\":\"DMGatewayType\"}},\"Function\":0}}}]},\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 280.00,
+          "width": 185.00,
+          "x": 932.00,
+          "y": 57.00,
+          "z": 4001.00
+        },
+        {
           "config": "{\"name\":\"8d7e00e1ce8cbe5fa6f8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":300,\"y\":20,\"width\":280,\"height\":280,\"z\":2000}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Min(DateTimeZoneParam.DateTimeZoneParam)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"DateTimeZoneParam\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"DateTimeZoneParam\"}},\"Function\":3},\"Name\":\"Min(DateTimeZoneParam.DateTimeZoneParam)\"}]}}}",
           "filters": "[]",
           "height": 280.00,
@@ -61,7 +70,7 @@
           "config": "{\"name\":\"9b559d65c933f9bc0700\",\"layouts\":[{\"id\":0,\"position\":{\"x\":10,\"y\":20,\"width\":280,\"height\":280,\"z\":0}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Table1.asasasas\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Table1.asasasas)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table1NoParams\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"asasasas\"},\"Name\":\"Table1.asasasas\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"asasasas\"}},\"Function\":5},\"Name\":\"CountNonNull(Table1.asasasas)\"}]}}}",
           "filters": "[]",
           "height": 280.00,
-          "width": 285.00,
+          "width": 280.00,
           "x": 10.00,
           "y": 20.00,
           "z": 0.00
