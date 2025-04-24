@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "86af7912-fca5-46c5-aaeb-adcdea61ac56",
+      "name": "fgfdsg",
+      "type": "SampleData",
+      "properties": {
+        "type": "Bicycles"
+      }
+    }
+  ],
+  "destinations": [],
+  "streams": [
+    {
+      "id": "254af83f-6fba-400e-aa45-720be2e4672c",
+      "name": "Eventstream5436-stream",
+      "type": "DefaultStream",
+      "properties": {},
+      "inputNodes": [
+        {
+          "name": "fgfdsg"
+        }
+      ]
+    }
+  ],
+  "operators": [],
+  "compatibilityLevel": "1.0"
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/graphqlApi/definition/1.0.0/schema.json",
+  "datasources": [
+    {
+      "objects": [
+        {
+          "actions": {
+            "Query": "Enabled"
+          },
+          "fieldMappings": {
+            "Culture": "Culture",
+            "Description": "Description",
+            "Name": "Name",
+            "ProductID": "ProductID",
+            "ProductModel": "ProductModel"
+          },
+          "graphqlType": "vProductAndDescription",
+          "relationships": [],
+          "sourceObject": "SalesLT.vProductAndDescription",
+          "sourceObjectType": "View"
+        }
+      ],
+      "sourceItemId": "06ba9e69-6e09-b90b-482f-be0d6f2d8b78",
+      "sourceType": "SqlDbNative",
+      "sourceWorkspaceId": "00000000-0000-0000-0000-000000000000"
+    }
+  ]
+}
