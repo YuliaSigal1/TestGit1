@@ -1,0 +1,24 @@
+{
+  "properties": {
+    "type": "Airflow",
+    "typeProperties": {
+      "airflowProperties": {
+        "airflowEnvironment": "FabricAirflowJob-1.0.0",
+        "airflowVersion": "2.10.5",
+        "pythonVersion": "3.12",
+        "environmentVariables": {},
+        "airflowConfigurationOverrides": {},
+        "airflowRequirements": [],
+        "enableAADIntegration": true,
+        "enableTriggerers": false
+      },
+      "computeProperties": {
+        "computePool": "StarterPool",
+        "computeSize": "Small",
+        "extraNodes": 0,
+        "enableAvailabilityZones": false,
+        "enableAutoscale": false
+      }
+    }
+  }
+}
