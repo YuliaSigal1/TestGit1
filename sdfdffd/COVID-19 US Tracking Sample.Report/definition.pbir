@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../COVID-19 US Tracking Sample.SemanticModel"
+    }
+  }
+}
