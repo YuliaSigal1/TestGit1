@@ -4,14 +4,20 @@
     {
       "name": "var1",
       "note": "hi",
-      "type": "String",
-      "value": ""
+      "type": "ItemReference",
+      "value": {
+        "itemId": "4bc7973e-dbfa-46b1-8dcc-0621d12a0b68",
+        "workspaceId": "3986e762-f684-4863-ab5b-c8f51c68f7a9"
+      }
     },
     {
       "name": "var2",
       "note": "",
-      "type": "String",
-      "value": ""
+      "type": "ItemReference",
+      "value": {
+        "itemId": "4d07f5d0-f232-4c2c-bd6e-3a33c9d5aa54",
+        "workspaceId": "1eedad60-d7fe-4e21-8c2d-91ff6dc556fb"
+      }
     }
   ]
 }
