@@ -1,0 +1,88 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.10.0/schema.json",
+  "name": "9c0ee7636d071678737a",
+  "position": {
+    "x": 932,
+    "y": 57,
+    "z": 4001,
+    "height": 280,
+    "width": 185,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "pieChart",
+    "query": {
+      "queryState": {
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "DurationParam"
+                        }
+                      },
+                      "Property": "DurationParam"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(DurationParam.DurationParam)",
+              "nativeQueryRef": "DurationParam"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "DurationParam"
+                      }
+                    },
+                    "Property": "DurationParam"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    }
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "65644121d83b17c7ac06",
+        "field": {
+          "Aggregation": {
+            "Expression": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "DurationParam"
+                  }
+                },
+                "Property": "DurationParam"
+              }
+            },
+            "Function": 0
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}
